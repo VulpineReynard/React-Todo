@@ -46,22 +46,23 @@ body {
   box-shadow: 0 0 5px 5px #4cccae;
 }
 .todo-list-title {
+  font-size: 2.6rem;
   margin: auto;
   margin-bottom: 50px;
+  width: 250px;
   text-align: center;
   color: white;
-  background: #6e4ccc;
-  padding: 5px;
+  padding: 10px;
+  border: 1px solid white;
   border-radius: 3px;
-  width: 150px;
 }
 .todo {
   color: white;
   background: #4092af;
   height: auto;
-  width: 60%;
+  width: 70%;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   margin: 20px auto;
   cursor: pointer;
   transition: all .2s ease-in-out;
@@ -74,6 +75,9 @@ body {
 .todo.completed {
   background: #c21a3e;
   text-decoration: line-through;
+}
+.todo.completed:hover {
+  background: #d34d6a;
 }
 
 .todo-text {

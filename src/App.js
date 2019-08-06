@@ -6,12 +6,27 @@ import '../src/App.css';
 const todoData = [
   {
     task: 'Organize Garage',
-    id: 1528817077286,
+    id: 54323,
     completed: false
   },
   {
     task: 'Bake Cookies',
-    id: 1528817084358,
+    id: 54354234234,
+    completed: false
+  },
+  {
+    task: 'Take Out Garbage',
+    id: 6545633234,
+    completed: true
+  },
+  {
+    task: 'Shampoo Carpets',
+    id: 54545664,
+    completed: true
+  },
+  {
+    task: 'Destroy Asteroid Heading for Earth',
+    id: 3453456345345,
     completed: false
   }
 ];
